@@ -31,3 +31,10 @@ if (money2) {
 } else {
   console.log("You should get a job!");
 }
+
+let height; // undefined is falsy
+if (height) {
+  console.log("YAY! Height is defined");
+} else {
+  console.log("Height is UNDEFINED");
+}
